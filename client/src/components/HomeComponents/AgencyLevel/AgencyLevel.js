@@ -1,22 +1,22 @@
 import React from 'react';
 import articles from './agencyData.json';
 import styles from './AgencyLevel.module.scss';
-import classNames from 'classnames';
 import { Link } from 'react-router-dom';
 
-const iconColors= [{}];
+
 
 const AgencyLevel = () => {  
   return (
-    <section>
-      <h2>agency level experience</h2>
+    <section className={styles.section}>
+      <h2 className={styles.header}>agency level experience</h2>
       {articles.map((article,i)=>{
-        return <article key={i}>
-          <div style={article.iconBg} className={styles.iconWrapper}><i className={`${article.icon} fa-2x`}></i></div>
-          <h3>{article.capture}</h3>
-          <p>{article.discription}<Link to={article.link}>Learn More</Link></p>
+        return <article key={i} className={styles.article}>
+          <div style={{"background-color":article.iconBg}} className={styles.iconWrapper}><i style={{"color":article.iconColor}} className={`${article.icon} fa-2x`}></i></div>
+          <h3 className={styles.capture}>{article.capture}</h3>
+          <p  className={styles.discription}>{article.discription}<Link   className={styles.articleLink} to={article.link}>Learn More</Link></p>
         </article>
       })}
+      <Link className={styles.btnLink} to='/managed-contests'>learn more about agency services</Link>
     </section>
   );
 }

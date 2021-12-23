@@ -1,19 +1,26 @@
 [
-  {"icon":"fas fa-cogs",
+  {
+    "icon":"fas fa-cogs",
     "iconColor":"#de4437",
     "iconBg":"rgba(222,68,55,.1)",
-    "capture":"managed contests","discription":"Combine the power of crowdsourcing with the rich experience of our branding consultants. Get a complete agency-level experience.",
+    "capture":"managed contests",
+    "discription":"Combine the power of crowdsourcing with the rich experience of our branding consultants. Get a complete agency-level experience.",
     "link":"/managed-contests"
   },
-  {"icon":"fa fa-users",
+  {
+    "icon":"fa fa-users",
     "iconColor":"#00c9a7",
     "iconBg":"rgba(0,201,167,.1)",
-    "capture":"audience testing","discription":"Get unbiased feedback from real people to choose your most important brand elements with confidence!",
-    "link":"/brand-name-testing"},
-  {"icon":"fa fa-trademark",
-    
+    "capture":"audience testing",
+    "discription":"Get unbiased feedback from real people to choose your most important brand elements with confidence!",
+    "link":"/brand-name-testing"
+  },
+  {
+    "icon":"fa fa-trademark",    
     "iconColor":"#377dff",
     "iconBg":"rgba(55,125,255,.1)",
-    "capture":"trademark support","discription":"Work with our team of experienced licensed trademark attorneys to protect your name, tagline, and logo with the USPTO.",
-    "link":"/trademark-filing-package"}
+    "capture":"trademark support",
+    "discription":"Work with our team of experienced licensed trademark attorneys to protect your name, tagline, and logo with the USPTO.",
+    "link":"/trademark-filing-package"
+  }
 ]
