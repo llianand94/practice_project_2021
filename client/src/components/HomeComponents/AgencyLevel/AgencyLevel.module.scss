@@ -1,22 +1,35 @@
 .section{
   padding: 2rem 1rem;
   text-align: center;
-  background-color:#f8f9fa;
+  background-color:#f8f9fa;  
 }
 .header{
+  margin-bottom: 1rem;
   font-size:1.5rem;
   font-weight: 500;
   text-transform: capitalize;
 }
+.articlesWrapper{
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  @media screen and (min-width:700px) {
+    flex-direction:row;
+    align-items:flex-start;
+  }
+}
 .article{
   display:flex;
   flex-direction:column;
-  // justify-content: center;
   align-items:center;
-  padding:1rem 0;
-  padding-bottom: 0;
+  padding-left:1rem;
+  padding-right:1rem;
+  padding-bottom:1rem;
   text-align:center;
+  @media screen and (min-width: 700px){
+    padding-bottom:0;
   }
+}
 .capture{
   margin-top: 2rem;
   text-transform: capitalize;
@@ -28,45 +41,39 @@
   line-height: 1.3rem;
 }
 .iconWrapper{
-  
   display: flex;
   align-items: flex-end;
   justify-content: center;
   width: 3.1rem;
   height: 3.1rem;
   border-radius: 50%;
-    &>*{
-      margin-bottom: -0.5rem;
-    }
+  &>*{
+    margin-bottom: -0.5rem;
   }
+}
 
-  .articleLink{
-    margin-left: 0.5rem;
-    padding-bottom: 0.2rem;
-    border-bottom: 1px dashed #77838f;
-    text-decoration: none;
-    color: #77838f;
+.articleLink{
+  margin-left: 0.5rem;
+  padding-bottom: 0.2rem;
+  border-bottom: 1px dashed #77838f;
+  text-decoration: none;
+  color: #77838f;
+}
+.btnLink{
+  display: inline-block;
+  margin-top: 2rem;
+  margin-bottom: 1.5rem;
+  padding: 1rem ;
+  border: 1px solid #007bff;
+  border-radius: 3px;
+  text-decoration: none;
+  text-transform: capitalize;
+  color: #007bff;
+  transition: transform 0.2s;
+  &:hover,&:focus{
+    color: #fff;
+    background-color: #007bff;
+    transform: translateY(-2px);
   }
-  .btnLink{
-    display: inline-block;
-    margin-top: 2rem;
-    margin-bottom: 1.5rem;
-    padding: 1rem ;
-    border: 1px solid #007bff;
-    border-radius: 3px;
-    text-decoration: none;
-    text-transform: capitalize;
-    color: #007bff;
-    transition: transform 0.2s;
-    &:hover,&:focus{
-      color: #fff;
-      background-color: #007bff;
-      transform: translateY(-2px);
-    }
-  }  
-
-  // transition: transform 0.3s;
-  // &:hover,&:focus{
-  //   box-shadow: 0px 2px 2px 2px  #fff;
-  //   
-  // }
+}  
+  
