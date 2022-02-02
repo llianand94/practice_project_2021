@@ -1,0 +1,64 @@
+[
+  {"color": "#e0b48d",
+    "panelTitle": "Bronze",
+    "panelBody":"Branding on a budjet",
+    "price": 299,
+    "description":
+    [
+      {"li":"Prize to Winner - $135 (Included)", "comment":"Paid to the winning creative at the end of contest. This amount is already included in your package price"},
+      {"li":"Validarion Services & Upgrades ($39 value)","comment":"Our agency-style validation features and upgrades provide all the tools you need to complete a successfull branding project, start to finish, and select a name with confidence."},
+      [
+        {"li":"Matching.com URL", "comment":"All submitted names are automatically checked for matching domain name availability. If you are only interested in a name and not a matching.com URL, you can specify that preference during contest creation."}
+      ],
+      {"li":"Expected 300+ Entries", "comment":"Complimentary extension of timeline if you receive less than expected number of entries."}
+    ]     
+  },
+  {"color": "#e8b954",
+    "panelTitle": "Gold",
+    "panelBody":"Increase participation and basic brand validation",
+    "price": 449,
+    "description":
+    [
+      {"li":"Prize to Winner - $200 (Included)", "comment":"Paid to the winning creative at the end of contest. This amount is already included in your package price"},
+      {"li":"Validarion Services & Upgrades ($305 value)", "comment":"Naming is difficult.Our agency-style validation features and upgrades provide all the tools you need to complete a successfull branding project, start to finish, and select a name with confidence."},
+      [
+        {"li":"Matching.com URL", "comment":"All submitted names are automatically checked for matching domain name availability. If you are only interested in a name and not a matching.com URL, you can specify that preference during contest creation."},
+        {"li":"Instant Trademark Chock (One Database)", "comment":"Our agency-style validation features and upgrades provide all the tools you need to complete a successfull branding project, start to finish, and select a name with confidence."},
+        {"li":"NDA and Mode Privacy", "comment":"Require creatives to agree to a Non Disclosure Agreement before participating in your contest. Your contest details will also be hidden from search engines"},
+        {"li":"Project Promotion (Basic)","comment":"Recieve priority project stands out and gets more participation"},
+        {"li":"Comprehensive Trademark Research","comment":"A comprehensive Trademark validation report for your favorite name"}
+      ],
+    {"li":"Expected 600+ Entries","comment": "Complimentary extension of timeline if you receive less than expected number of entries."},{"li":"Partial Refund Option","comment":"If you are not happy with submissions, you can receive a partial refund for creative award ($200)"}
+    ]   
+  },
+  {"color": "#555",
+    "panelTitle": "Platinum",
+    "panelBody":"Work with top-level creatives, plus agency-style brand validation",
+    "price": 749,
+    "description":
+    [
+      {"li":"Prize to Winner - $300 (Included)",
+       "comment":"Paid to the winning creative at the end of contest. This amount is already included in your package price"},
+      {"li":"Validarion Services & Upgrades ($979 value)",
+       "comment":"Naming is difficult.Our agency-style validation features and upgrades provide all the tools you need to complete a successfull branding project, start to finish, and select a name with confidence."},
+      [
+        {"li":"Audience Testing (Up to 6 Names) View Sample Report", "comment":"Test your top 6 names with your target demographics and receive detailed insights to pick the best option"},
+        {"li":"Comprehensive Trademark Research (3 Names)","comment":"Comprehensive Trade mark validation reports prepared for your top three names"},
+        {"li":"Linguistics Analysis (3 Names)","comment":"Receive a Linguistics Analysis report for up to 3 names. Report includes comprehesive linguistics analysis across major languages for any potential red flags ($129 value)"},
+        {"lis":"Tier A Creatives","comment":"Only work with top creatives who have achueved high quakity ranking on Squadhelp"},
+        {"li":"Matching.com URL", "comment":"All submitted names are automatically checked for matching domain name availability. If you are only interested in a name and not a matching.com URL, you can specify that preference during contest creation."},
+        {"li":"Instant Trademark Check (4 Databases)","comment":"One-click Trademark availability check for entries received in your contest againg USPTO and other Trademark databases (4 databases). You will have the ability to get instans inpormations on any active Trademars for all entries."},
+        {"li":"NDA and More Privacy", "comment":"You can require creatives to agree to a Non Disclosure Agreement before participating in your contest. Plus, your contest is hidden from search engines"},
+        {"li":"Enhanced Project Promotion","comment":"Receive priority project listing so your project stands out and receive more participation. We will also announce the launch of your project to our entire community via email."},{"li":"Team Collaboration Tools", "comment":"Invite your team members to co-manage your contest"}
+      ],
+      {"li":"Expected 1000+ Entries","comment":"Complimentary extension of timeline if you receive less than guaranteed number of entries."},{"li":"Partial Refund Option", "comment":"If you are not happy with submissions, you can receive for creative award ($300)"}
+    ]
+  },
+  {"color": "#28d2d0",
+    "panelTitle": "Managed",
+    "panelBody":"Work with top-level creatives, plus agency-style brand validation",
+    "price": 749,
+    "description":["Receive optimum results from your Platinum Contest by launching a Managed Contest Package and working one-on-one with an experienced Squadhelp Branding Consultant.",
+    "With significantly more validation services, professional brief creation, and daily management of your contest by your Branding Expert, you'll receive an enhanced branding experience to closeout your branding project","Learn More about Managed Contest Service"]
+  }
+]
